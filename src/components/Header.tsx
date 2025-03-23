@@ -15,9 +15,9 @@ function Header() {
     <div className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-gray-100">
       <div className="container mx-auto py-4 px-4 lg:px-0 flex flex-col">
         <div className="flex flex-row items-center justify-between w-full">
-          <div className="w-[120px] lg:w-[164px] cursor-pointer">
+          <Link to="/" className="w-[120px] lg:w-[164px] cursor-pointer">
             <img src={logo} alt="logo" className="" sizes="164px" />
-          </div>
+          </Link>
 
           <div className="lg:hidden">
             <button onClick={() => setIsOpen(!isOpen)}>
